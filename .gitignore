@@ -84,7 +84,6 @@ dataset_cache/ # Hugging Face datasets often cache here
 
 analysis_outputs/
 data/
-espnet/
 espnet_data/
 experiments/
 jasmin-data/
