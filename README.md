@@ -1,18 +1,9 @@
-Okay, here is the full `README.md` content, incorporating the section to link to a PDF of your thesis stored within the repository.
-
-Remember to:
-1.  Replace placeholders like `https://gitlab.com/your-username/your-repository-name` with your actual GitLab URL.
-2.  Replace `Damen_Tim_Thesis_ASR_Bias_Mitigation.pdf` with the actual filename of your PDF.
-3.  Make sure you've actually added the PDF to a `paper/` subdirectory in your repository and committed/pushed it.
-
----
-```markdown
 # Mitigating Bias in Automatic Speech Recognition Through Phoneme-Targeted Data Augmentation
 
-**Author:** Tim Damen
-**Affiliation:** Amsterdam University of Applied Sciences
-**Contact:** tim.damen@hva.nl
-**GitLab Repository:** `https://github.com/timda5/Phoneme-Targeted-Data-Augmentation` 
+* **Author:** Tim Damen
+* **Affiliation:** Amsterdam University of Applied Sciences
+* **Contact:** tim.damen@hva.nl
+* **GitLab Repository:** `https://github.com/timda5/Phoneme-Targeted-Data-Augmentation` 
 
 ## Abstract
 
@@ -289,4 +280,3 @@ Damen, T. (2025). Mitigating Bias in Automatic Speech Recognition Through Phonem
 ## License
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for details.
-```
