@@ -1,9 +1,9 @@
 # Mitigating Bias in Automatic Speech Recognition Through Phoneme-Targeted Data Augmentation
 
-**Author:** Tim Damen
-**Affiliation:** Amsterdam University of Applied Sciences
-**Contact:** tim.damen@hva.nl
-**GitLab Repository:** `https://github.com/timda5/Phoneme-Targeted-Data-Augmentation` 
+* **Author:** Tim Damen
+* **Affiliation:** Amsterdam University of Applied Sciences
+* **Contact:** tim.damen@hva.nl
+* **GitLab Repository:** `https://github.com/timda5/Phoneme-Targeted-Data-Augmentation` 
 
 ## Abstract
 
