@@ -1,0 +1,9 @@
+
+phoneme:
+  dictionary: text/cmu_dictionary
+  moa: ["Vowel","Plosive","Nasal","Fricative","Affricates","Approximant"]
+  poa: ["Vowel","Bilabial","Labiodental","Dental","Alveolar","Postalveolar","Palatal","Velar","Glottal"]
+  alternative_cmudict: False
+  phoneme_name: "ARPAbet"
+  conversion_mapping: "PhoneSet_modified.csv"
+asr: "espnet"

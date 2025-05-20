@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+*.Python
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+venv_whisper/
+env/
+.env
+.venv
+ENV/
+# If you named your conda env differently and it creates a local dir (rare), add it.
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files (optional, but good practice)
+.vscode/
+.idea/
+
+# Data files
+*.txt
+*.csv
+*.tsv
+*.jsonl # Common for Hugging Face datasets
+*.arrow # Common for Hugging Face datasets
+*.srt
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Plots
+*.png
+
+# Model files & checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.ort # ONNX Runtime models
+*.h5
+*.keras
+models/      # If you have a dedicated models directory
+checkpoints/ # If you have a dedicated checkpoints directory
+runs/        # Often used by PyTorch Lightning or TensorBoard
+
+# Large datasets / Raw data
+data/raw_data/
+data/audio_files/
+# Be more specific if some .txt or .csv files ARE configuration and SHOULD be tracked
+# For example, to allow a specific config.txt:
+# !config.txt
+
+# Logs
+*.log
+logs/
+
+# Specific to Whisper finetuning if you have output directories
+output/
+results/
+dataset_cache/ # Hugging Face datasets often cache here
+
+# Large archives (if you download datasets this way)
+*.zip
+*.tar.gz
+*.tgz
+
+analysis_outputs/
+data/
+espnet/
+espnet_data/
+experiments/
+jasmin-data/
+nltk_data/
+output_codes/
+synthetic_audio_coqui/
+transcriptions/
+wandb/
+whisper_transcriptions/
+whisper-finetuned-large-v3-20epochs/
+whisper-finetuned-large-v3-20epochs_debug/
+whisper-finetuned-large-v3-20epochs_mixed_data_no_force/
+whisper-finetuned-synthetic-continued-large-v3/
+whisper-finetuned-synthetic-only-large/
+whisper-finetuned-synthetic-only-large-v3/
+whisper-finetuned-synthetic-only-turbo/
+relative_phoneme_analysis-master/kaldi_formatted_output_filtered/
+relative_phoneme_analysis-master/kaldi_formatted_output/
+relative_phoneme_analysis-master/experiments/

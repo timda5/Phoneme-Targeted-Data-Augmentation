@@ -1,0 +1,22 @@
+asr: kaldi
+phoneme:
+  alternative_cmudict: true
+  conversion_mapping: PhoneSet_dutch.csv
+  dictionary: text/test_dutch_dict
+  dutch_oov_rule: true
+  moa:
+  - Vowel
+  - Plosive
+  - Nasal
+  - Fricative
+  - Approximant
+  phoneme_name: CGN-Phone
+  poa:
+  - Vowel
+  - Bilabial
+  - Labiodental
+  - Alveolar
+  - Postalveolar
+  - Palatal
+  - Velar
+  - Glottal
