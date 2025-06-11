@@ -25,9 +25,10 @@ id_files = {
     'fr': analysis_output_folder / 'lowest_error_utt_ids_fr_large3turbo.txt', # Example filename, adjust as needed
 }
 sentence_files = {
-    # Point these to your actual sentence files (e.g., the ones with one sentence per line)
-    'nl': analysis_output_folder / 'output_nl_atleast_one_cleaned_turbo.txt', # Example filename, adjust as needed
-    'fr': analysis_output_folder / 'output_fr_atleast_one_cleaned_turbo.txt', # Example filename, adjust as needed
+    # NL voices speaking sentences rich in phonemes where FR children struggle
+    'nl': analysis_output_folder / 'output_fr_rich_sentences_turbo.txt', 
+    # FR voices speaking sentences rich in phonemes where NL children struggle
+    'fr': analysis_output_folder / 'output_nl_rich_sentences_turbo.txt',
 }
 synthetic_audio_base_dir = base_path / 'synthetic_audio_coqui/turbo'
 
